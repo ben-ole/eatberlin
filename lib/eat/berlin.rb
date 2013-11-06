@@ -3,6 +3,7 @@ require "eat/berlin/base"
 
 module Eat
   module Berlin
-    # Your code goes here...
+
+    autoload :Command,      'berlin/command'
   end
 end
